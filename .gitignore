@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local raw/processed datasets
+data/*.xlsx
+data/*.xls
+data/*.csv
+!data/README.md
+
+# Generated output
+outputs/*.png
+outputs/*.jpg
+outputs/*.csv
